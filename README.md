@@ -88,5 +88,32 @@ graph LR;
 >>> 인용 안에 인용 안에 인용
 
 >여러분들 스트레칭 하세요
->- 지나가던 프로그래밍 아저씨
-<!-- / 이스케이프 >
+>\- 지나가던 프로그래밍 아저씨
+<!-- \ 이스케이프 >
+
+[연결하고 싶은 문자](https://naver.com)'[연결하고 싶은 문자](https://naver.com)'
+
+
+![대체 텍스트]()
+![대체 텍스트](https://images.unsplash.com/photo-1793791750797-a0e91110190b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D)
+
+[https://images.unsplash.com/photo-1793791750797-a0e91110190b?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=NHwxMjA3fDA%3D](https://naver.com)
+'''
+[![이미지](이미지링크)](접속링크)
+'''
+
+<center>가운데정렬</center>
+
+'| (수직 바, 파이프라인)'
+|제목1|
+|-----|
+|내용1|
+
+|1|
+|-|
+
+'''
+|:---| 왼쪽 정렬 (기본값)
+|---:| 오른쪽 정렬
+|:---:| 가운데 정렬
+'''
